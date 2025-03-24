@@ -34,3 +34,5 @@ pipeline:
                     shell: Sh
                     command: echo "hello"
                   description: "#run"
+        when:
+          pipelineStatus: All
